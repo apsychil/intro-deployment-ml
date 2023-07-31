@@ -1,0 +1,9 @@
+stages:
+  prepare:
+    cmd: python src/prepare_data.py
+    outs:
+    - dataset/full_data.csv
+  training:
+    cmd: python src/train_data.py
+    deps:
+    - dataset/full_data.csv

@@ -12,7 +12,7 @@ jobs:
         run: |
           pip3 install virtualenv
           virtualenv env
-          sourve env/bin/activate
+          source env/bin/activate
       - name: Installing dependecies
         run: |
           pip install dvc[gs]

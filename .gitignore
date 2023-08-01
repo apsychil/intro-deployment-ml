@@ -1,0 +1,9 @@
+*.json
+*.csv
+*.pkl
+*.txt
+*.png
+__pycache__/
+
+env/
+.ipynb_checkpoints/
